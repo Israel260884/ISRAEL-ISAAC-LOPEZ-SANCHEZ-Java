@@ -2,7 +2,7 @@ package Examen1;
 
 public enum EnumOperaciones {
 
-    SUMA("suma"), RESTA("resta"), MULTIPLICACION("multipliacion"), DIVISION("division");
+    SUMA("suma"), RESTA("resta"), MULTIPLICACION("multipliacion"), DIVISION("division"), REGRESAR("regresar");
 
     private final String OperacionAritmetica;
 
