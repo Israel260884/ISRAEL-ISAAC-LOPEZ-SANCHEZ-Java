@@ -22,7 +22,7 @@ public class CalculadoraPrincipal {
 
         System.out.println("Ahora ingrese el segundo número");
         ingresarNumero = new Scanner(System.in);
-        num2 = ingresarNumero.nextInt();
+        numero2 = ingresarNumero.nextInt();
 
     }
 
