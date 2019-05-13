@@ -20,6 +20,10 @@ public class CalculadoraPrincipal {
         System.out.println("Division");
         ingresarNumero = new Scanner(System.in);
 
+        System.out.println("Ahora ingrese el segundo número");
+        ingresarNumero = new Scanner(System.in);
+        num2 = ingresarNumero.nextInt();
+
     }
 
 }
