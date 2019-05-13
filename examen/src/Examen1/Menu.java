@@ -9,8 +9,8 @@ public class Menu {
         // TODO Auto-generated method stub
 
         public void ConstructorOperaciones() {
-            
-        
+
+
         final Scanner ingresarNumero = null;
         final Scanner OperacionAritmetica = null;
 
@@ -27,10 +27,25 @@ public class Menu {
         System.out.println("Multiplicacion");
         System.out.println("Division");
 
+        switch(OperacionAritmetica){
+        case SUMA:
+            break;
+        case RESTA:
+            break;
+        case MULTIPLICACION:
+            break;
+        case DIVISION:
+            break;
+            default:
+                System.out.println("No esta escribiendo la operacion correcta");
+
+        }
+
         System.out.println("Ahora ingrese el segundo número");
         ingresarNumero = new Scanner(System.in);
         numero2 = ingresarNumero.nextInt();
 
     }
 
+    }
 }
