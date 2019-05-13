@@ -7,7 +7,6 @@ public class TestBaseDatos {
     public static void main(final String[] args) {
 
         final Conexion baseDeDatos = new Conexion();
-//jkkjkjkj
         final Connection c = baseDeDatos.conectarBasedeDatos();
 
         final String nombreTabla = "Asistencia";
