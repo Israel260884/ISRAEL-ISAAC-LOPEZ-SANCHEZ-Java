@@ -8,6 +8,7 @@ public class CalculadoraPrincipal {
         // TODO Auto-generated method stub
 
         final Scanner ingresarNumero = null;
+        final Scanner OperacionAritmetica = null;
 
         System.out.println("Ingrese un número");
         ingresarNumero = new Scanner(System.in);
@@ -18,7 +19,7 @@ public class CalculadoraPrincipal {
         System.out.println("Resta");
         System.out.println("Multiplicacion");
         System.out.println("Division");
-        ingresarNumero = new Scanner(System.in);
+        OperacionAritmetica = new Scanner(System.in);
 
         System.out.println("Ahora ingrese el segundo número");
         ingresarNumero = new Scanner(System.in);
