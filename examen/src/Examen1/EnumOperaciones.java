@@ -1,10 +1,8 @@
 package Examen1;
 
-public enum EnumOperaciones {
+public enum EnumOperaciones {SUMA, RESTA, MULTIPLICACION, DIVISION, MENU};
 
-    SUMA("suma"), RESTA("resta"), MULTIPLICACION("multipliacion"), DIVISION("division"), REGRESAR("regresar"),
-    MENU("menu");
-
+   
     private final String OperacionAritmetica;
 
     EnumOperaciones(final String OperacionAritmetica) {
