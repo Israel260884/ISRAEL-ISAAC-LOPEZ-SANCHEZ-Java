@@ -13,6 +13,9 @@ public class CalculadoraPrincipal {
         System.out.println("Ingrese un número");
         ingresarNumero = new Scanner(System.in);
         numero1 = ingresarNumero.nextInt();
+    }
+
+    public void OperacionAritmetica() {
 
         System.out.println("Escriba la operación que desea hacer");
         System.out.println("Suma");
