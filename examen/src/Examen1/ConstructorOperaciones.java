@@ -2,9 +2,9 @@ package Examen1;
 
 public class ConstructorOperaciones extends CalculadoraPrincipal {
 
-    private final static int numero1 = 0;
-    private final static int numero2 = 0;
-    private final int resultado = 0;
+    private Double numero1 = null;
+    private Double numero2 = null;
+    private Double resultado = null;
     
     public enum OperacionesAritmeticas() {
         
