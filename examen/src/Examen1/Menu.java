@@ -1,5 +1,6 @@
 package Examen1;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Menu {
@@ -25,7 +26,6 @@ public class Menu {
         System.out.println("Resta");
         System.out.println("Multiplicacion");
         System.out.println("Division");
-        OperacionAritmetica = new Scanner(System.in);
 
         System.out.println("Ahora ingrese el segundo número");
         ingresarNumero = new Scanner(System.in);
