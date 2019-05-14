@@ -5,49 +5,78 @@ import java.util.Scanner;
 import java.nio.charset.StandardCharsets;
 
 public class Principal {
-	private final static Menu MENU = new Menu();
 
-	public static void main(final String[] args) {
+    public static void main(final String[] args) {
 
+        private final static Menu MENU = new Menu();
 		int seleccionMenu = 0;
 		boolean ciclar = true;
+		EnumOperaciones SeleccionarOperacion = null;
+		Double num1 = null;
+		Double num2 = null;
 		Scanner escoger = null;
-		String SeleccionarOperacion = null;
 		
+
 		try {
 			do {
 				MENU.inicio();
 					try {
-						escoger = new Scanner (System.in, StandardCharsets.UTF_8.name());
-						seleccionMenu = escoger.nextInt();
-						boolean ciclar2 = false;
-				
-						switch (escoger) {
-						case 1:
-							do {
-								MENU.EnumOperaciones();
-							
-							break;
-
+						this.escoger = new Scanner (System.in, StandardCharsets.UTF_8.name());
+						this.seleccionMenu = this.escoger.nextInt();
+						final boolean ciclar2 = false;
+						final String operaciones = (String) escoger.next();
+					 this.SeleccionarOperacion = EnumOperaciones.valueOf(operaciones.toUpperCase());
+						
+						switch (this.SeleccionarOperacion) {
+						case SUMA:
+						    System.out.println("Ingrese el primer digito");
+						    final Scanner num1S;
+						    num1S.nextDouble();
+                            System.out.println("Ingrese el segundo digito");
+                            final Scanner num2S;
+                            num1S.nextDouble();
+                            System.out.println("El resultado de la operacion es" + Calculadora.suma);
+                            break;
+                            
 						case RESTA:
-							break;
-
+						    System.out.println("Ingrese el primer digito");
+                            final Scanner num1R;
+                            num1R.nextDouble();
+                            System.out.println("Ingrese el segundo digito");
+                            final Scanner num2R;
+                            num2R.nextDouble();
+                            System.out.println("El resultado de la operacion es" + Calculadora.resta);
+                            break;
+                            
 						case MULTIPLICACION:
-							break;
-
+						    System.out.println("Ingrese el primer digito");
+                            final Scanner num1M;
+                            num1M.nextDouble();
+                            System.out.println("Ingrese el segundo digito");
+                            final Scanner num2M;
+                            num2M.nextDouble();
+                            System.out.println("El resultado de la operacion es" + Calculadora.multipliacion);
+                            break;
+                            
 						case DIVISION:
-							break;
-
+						    System.out.println("Ingrese el primer digito");
+                            final Scanner num1D;
+                            num1D.nextDouble();
+                            System.out.println("Ingrese el segundo digito");
+                            final Scanner num2D;
+                            num2D.nextDouble();
+                            System.out.println("El resultado de la operacion es" + Calculadora.division);
+                            break;
 						default:
-							System.out.println("No esta escribiendo la operacion correcta");
-							break;
+						    System.err.println("Eso es una opción inválida");
+						{
+						    
+						
+					}
+						}
+							    
+						}
+					}
 
-		}
-
-		System.out.println("Ahora ingrese el segundo número");
-		ingresarNumero = new Scanner(System.in);
-		numero2 = ingresarNumero.nextInt();
-
-	}
-
-}
+			    }
+		    }
