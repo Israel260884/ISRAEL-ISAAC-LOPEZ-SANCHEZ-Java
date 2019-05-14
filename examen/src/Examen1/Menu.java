@@ -26,6 +26,8 @@ public class Menu {
         System.out.println("Resta");
         System.out.println("Multiplicacion");
         System.out.println("Division");
+        
+        
 
         switch(OperacionAritmetica){
         case SUMA:
