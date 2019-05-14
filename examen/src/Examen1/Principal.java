@@ -17,31 +17,31 @@ public class Principal {
 		
 		try {
 			do {
-				
 				MENU.inicio();
 					try {
 						escoger = new Scanner (System.in, StandardCharsets.UTF_8.name());
 						seleccionMenu = escoger.nextInt();
-						final EnumOperaciones
-					}
-		
+						boolean ciclar2 = false;
+				
+						switch (escoger) {
+						case 1:
+							do {
+								MENU.EnumOperaciones();
+							
+							break;
 
-		switch () {
-		case SUMA:
-			break;
+						case RESTA:
+							break;
 
-		case RESTA:
-			break;
+						case MULTIPLICACION:
+							break;
 
-		case MULTIPLICACION:
-			break;
+						case DIVISION:
+							break;
 
-		case DIVISION:
-			break;
-
-		default:
-			System.out.println("No esta escribiendo la operacion correcta");
-			break;
+						default:
+							System.out.println("No esta escribiendo la operacion correcta");
+							break;
 
 		}
 
