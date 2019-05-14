@@ -3,7 +3,7 @@ package Examen1;
 import java.io.InputStream;
 import java.util.Scanner;
 
-public class Menu {
+public class Principal {
 
 	public static void main(final String[] args) {
         // TODO Auto-generated method stub
