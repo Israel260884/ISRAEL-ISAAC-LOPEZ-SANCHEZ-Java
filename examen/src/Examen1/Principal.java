@@ -5,7 +5,6 @@ import java.util.Scanner;
 import java.nio.charset.StandardCharsets;
 
 public class Principal {
-//calculadora
 	private final static Menu MENU = new Menu();
 
 	public static void main(final String[] args) {
