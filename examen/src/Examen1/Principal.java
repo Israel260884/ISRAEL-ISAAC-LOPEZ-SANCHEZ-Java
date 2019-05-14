@@ -17,11 +17,16 @@ public class Principal {
 		
 		try {
 			do {
-				escoger = new Scanner (System.in, StandardCharsets.UTF_8.name());
+				
 				MENU.inicio();
+					try {
+						escoger = new Scanner (System.in, StandardCharsets.UTF_8.name());
+						seleccionMenu = escoger.nextInt();
+						final EnumOperaciones
+					}
 		
 
-		switch (OperacionAritmetica) {
+		switch () {
 		case SUMA:
 			break;
 
