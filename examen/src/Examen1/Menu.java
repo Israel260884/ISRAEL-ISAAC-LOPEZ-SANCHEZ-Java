@@ -8,7 +8,7 @@ public class Menu {
 	public static void main(final String[] args) {
         // TODO Auto-generated method stub
 
-        public void ConstructorOperaciones() {
+        public void Calculadora() {
 
 
         final Scanner ingresarNumero = null;
