@@ -2,55 +2,48 @@ package Examen1;
 
 import java.io.InputStream;
 import java.util.Scanner;
+import java.nio.charset.StandardCharsets;
 
 public class Principal {
 
+	private final static Menu MENU = new Menu();
+
 	public static void main(final String[] args) {
-        // TODO Auto-generated method stub
 
-        public void Calculadora() {
+		int seleccionMenu = 0;
+		boolean ciclar = true;
+		Scanner escoger = null;
+		String SeleccionarOperacion = null;
+		
+		try {
+			do {
+				escoger = new Scanner (System.in, StandardCharsets.UTF_8.name());
+				MENU.inicio();
+		
 
+		switch (OperacionAritmetica) {
+		case SUMA:
+			break;
 
-        final Scanner ingresarNumero = null;
-        final Scanner OperacionAritmetica = null;
+		case RESTA:
+			break;
 
-        System.out.println("Ingrese un número");
-        ingresarNumero = new Scanner(System.in);
-        numero1 = ingresarNumero.nextInt();
-    }
+		case MULTIPLICACION:
+			break;
 
+		case DIVISION:
+			break;
 
-        System.out.println("Escriba la operación que desea hacer");
-        System.out.println("Suma");
-        System.out.println("Resta");
-        System.out.println("Multiplicacion");
-        System.out.println("Division");
-        
-        
+		default:
+			System.out.println("No esta escribiendo la operacion correcta");
+			break;
 
-        switch(OperacionAritmetica){
-        case SUMA:
-            break;
-            
-        case RESTA:
-            break;
-            
-        case MULTIPLICACION:
-            break;
-            
-        case DIVISION:
-            break;
-            
-            default:
-                System.out.println("No esta escribiendo la operacion correcta");
-                break;
+		}
 
-        	}
+		System.out.println("Ahora ingrese el segundo número");
+		ingresarNumero = new Scanner(System.in);
+		numero2 = ingresarNumero.nextInt();
 
-        System.out.println("Ahora ingrese el segundo número");
-        ingresarNumero = new Scanner(System.in);
-        numero2 = ingresarNumero.nextInt();
-
-    }
+	}
 
 }
