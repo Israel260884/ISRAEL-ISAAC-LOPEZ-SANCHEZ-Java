@@ -12,8 +12,6 @@ public class Principal {
 		int seleccionMenu = 0;
 		boolean ciclar = true;
 		EnumOperaciones SeleccionarOperacion = null;
-		Double num1 = null;
-		Double num2 = null;
 		Scanner escoger = null;
 		
 
