@@ -1,13 +1,6 @@
 package Examen1;
 
- enum EnumOperaciones {SUMA, RESTA, MULTIPLICACION, DIVISION, MENU};
+public enum EnumOperaciones {
 
-
-
-
-   
-  
-
-
-    
-
+	SUMA, RESTA, MULTIPLICACION, DIVISION;
+}

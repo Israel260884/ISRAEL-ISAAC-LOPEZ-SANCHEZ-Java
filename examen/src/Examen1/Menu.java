@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public static void main(final String[] args) {
+	public static void main(final String[] args) {
         // TODO Auto-generated method stub
 
         public void ConstructorOperaciones() {
@@ -19,7 +19,6 @@ public class Menu {
         numero1 = ingresarNumero.nextInt();
     }
 
-    public void OperacionAritmetica() {
 
         System.out.println("Escriba la operación que desea hacer");
         System.out.println("Suma");
@@ -32,16 +31,21 @@ public class Menu {
         switch(OperacionAritmetica){
         case SUMA:
             break;
+            
         case RESTA:
             break;
+            
         case MULTIPLICACION:
             break;
+            
         case DIVISION:
             break;
+            
             default:
                 System.out.println("No esta escribiendo la operacion correcta");
+                break;
 
-        }
+        	}
 
         System.out.println("Ahora ingrese el segundo número");
         ingresarNumero = new Scanner(System.in);
@@ -49,5 +53,4 @@ public class Menu {
 
     }
 
-    }
 }
