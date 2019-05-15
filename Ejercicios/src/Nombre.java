@@ -6,6 +6,8 @@ public class Nombre {
 
         final String nombre = "Israel Lopez Sanchez";
 
+        // Captura de una subcadena.
+
         System.out.println(nombre.substring(7, 12));
 
         // Comparacion de cadenas
