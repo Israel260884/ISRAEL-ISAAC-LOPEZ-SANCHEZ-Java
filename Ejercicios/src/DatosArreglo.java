@@ -16,7 +16,9 @@ public class DatosArreglo {
             suma = suma + datos;
         }
 
-        System.out.println("El promedio de la suma es:" + datosArreglo);
+        final int media = suma / datosArreglo.length;
+
+        System.out.println("El promedio de la suma es:" + media);
 
     }
 }
