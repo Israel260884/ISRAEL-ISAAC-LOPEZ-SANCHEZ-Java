@@ -4,6 +4,7 @@ public class ArregloCarros {
     public static void main(final String[] args) {
 
         final String[] marcaAutos = new String[9];
+        final String[] marcaAutos2 = new String[9];
 
         marcaAutos[0] = "Alfa Romeo";
         marcaAutos[1] = "Fiat";
@@ -20,6 +21,10 @@ public class ArregloCarros {
             i = i - 1;
         }
         marcaAutos[p] = "Opel";
-    }
 
+        for (int a = 0; a < marcaAutos.length; a++) {
+            System.out.println(marcaAutos[a]);
+        }
+
+    }
 }
