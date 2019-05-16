@@ -11,8 +11,11 @@ public class BusquedaBinaria {
         final int valorBajo = 0;
         final int valorAlto = arregloBinario.length;
 
-        final int valorCentral = valorBajo + (ValorAlto / 2);
+        final int valorCentral = valorBajo + (valorAlto / 2);
 
+        while ((valorBajo < valorAlto) && (arregloBinario[valorCentral] != valorBuscado)) {
+
+        }
     }
 
 }
