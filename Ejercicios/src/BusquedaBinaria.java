@@ -7,10 +7,10 @@ public class BusquedaBinaria {
         final int[] arregloBinario = { 34, 67, 89, 100, 290, 500, 720 };
 
         final int valorBuscado = 89;
-        final int valorBajo = 0;
-        final int valorAlto = arregloBinario.length;
+        int valorBajo = 0;
+        int valorAlto = arregloBinario.length;
 
-        final int valorCentral = valorBajo + (valorAlto / 2);
+        int valorCentral = (valorBajo + valorAlto) / 2;
 
         while ((valorBajo < valorAlto) && (arregloBinario[valorCentral] != valorBuscado)) {
             if (valorBuscado < arregloBinario[valorCentral]) {
@@ -18,12 +18,16 @@ public class BusquedaBinaria {
 
             } else {
                 valorBajo = valorCentral + 1;
-                valorCentral = valorBajo / 2;
+
             }
+            valorCentral = (valorBajo + valorAlto) / 2;
 
         }
-        if (valorBuscado = arregloBinario[valorCentral]) {
-            ;
+        if (valorBuscado == arregloBinario[valorCentral]) {
+            System.out.println("Valor encontrado en:" + valorCentral);
+
+        } else {
+            System.out.println("Valor no encontrado");
         }
     }
 
