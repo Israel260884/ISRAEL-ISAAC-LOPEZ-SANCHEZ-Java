@@ -6,14 +6,9 @@ public class BusquedaSecuencial {
 
         final String[] arregloBusqueda = new String[10];
 
-        arregloBusqueda = {A,B,C,D,E,F,G,H,I,J}
+        arregloBusqueda={A,B,C,D,E,F,G,H,I,J};
 
         final String palabra = null;
-
-
-
-
-
 
     }
 
