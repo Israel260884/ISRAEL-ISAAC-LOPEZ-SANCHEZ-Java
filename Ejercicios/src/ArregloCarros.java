@@ -5,7 +5,7 @@ public class ArregloCarros {
 
         final String[] marcaAutos = new String[9];
 
-        marcaAutos[0] = "Alfa_Romeo";
+        marcaAutos[0] = "Alfa Romeo";
         marcaAutos[1] = "Fiat";
         marcaAutos[2] = "Ford";
         marcaAutos[3] = "Lancia";
