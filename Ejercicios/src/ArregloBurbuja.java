@@ -11,7 +11,7 @@ public class ArregloBurbuja {
 
         if (arregloNumero[a] - arregloBurbuja[b]) {
         }
-        for (i = 0; i > arregloNumero.length; i--) {
+        for (i = 0; i < arregloNumero.length; i--) {
 
         }
 
