@@ -12,6 +12,14 @@ public class ArregloCarros {
         marcaAutos[4] = "Renault";
         marcaAutos[5] = "Seat";
 
+        int i = marcaAutos.length - 6;
+        final int p = 4;
+
+        while (i >= p) {
+            marcaAutos[i + 1] = marcaAutos[i];
+            i = i - 1;
+        }
+        marcaAutos[p] = "Opel";
     }
 
 }
