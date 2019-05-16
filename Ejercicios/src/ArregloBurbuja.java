@@ -5,6 +5,12 @@ public class ArregloBurbuja {
         final int arregloNumero[] = { 9, 5, 8, 2, 6, 1, 7, 3, 4 };
         final int arregloBurbuja[];
 
+        int i = arregloNumero.length;
+
+        for (i = 0; i > arregloNumero.length; i--) {
+
+        }
+
     }
 
 }
