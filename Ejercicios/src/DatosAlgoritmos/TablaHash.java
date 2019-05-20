@@ -7,6 +7,7 @@ public class TablaHash {
     public TablaHash(final int longitud) {
         this.longitud = longitud;
         Lista = new ListaSimpleEnlazada[longitud];
+        for(final Lista elemento : this.lista) {
     }
 
     public void insertar(final String cadena) {
